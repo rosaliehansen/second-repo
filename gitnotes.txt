@@ -1,0 +1,57 @@
+Repository: Contains revision history.
+Clone:  Copy of repository - allows push to remote repository.
+Commit: Change to file or set of files. "Saving"
+GIT: Program for tracking changes in files. Magical 
+
+Free - whole team and project.  
+Distributed: Collaborators mirrir or clone complete repository
+Hashed comments
+
+SSH Key - no passphrase set up at this time.
+
+Git add-A - for a bunch files loaded to environment
+
+Add a new file
+State an existing file also using "add"
+Commit - Save Changes
+
+Red means activities required and green means all good.  
+
+Undo changes - 
+git reset HEAD hello_world.txt (to remove after you've "git add" command.
+
+Need to be in edit mode to copy and paste. - potentially use "Insert" button
+
+Branching:  same repo, different branch (develop diff cod from same base.
+The master brand is left alone (conduct exploratory work w/o affecting the work on "master" branch
+Use branch when you're ready (incorporate changes to your master branch only when you are ready.
+
+Branch: parallel version of a repo
+Master branch (default branch)
+
+git checkout -b version2
+:w - write
+:q - quit
+
+git branch - view all branches available.
+git commit - save
+git checkout master or version2
+
+COMBINE BRANCHES (merge) (in master - merging version 2 into master)
+git merge version2
+
+Conflict resolution
+
+How do you fix?  Remove conflict markers (<<<<<<<) 
+
+gitHub
+Portfolio
+
+Remote - version of a respository on server.
+Fetch - get the latest changes from online repository without merging
+Pull - step combines fetching and merging changes from a remote repository.
+Push - sends committed changes to a remote repository.
+
+
+
+
